@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   button: {
-    color: '#d04ed6',
     backgroundColor: 'transparent', // Set a transparent background
     border: '1px solid transparent', // Add border for a button-like appearance
     marginLeft: theme.spacing(2),
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   // Apply styles when the button is hovered
   buttonHover: {
     '&:hover': {
-      backgroundColor: '#d04ed6',
+      backgroundColor: '#6366f1',
       transition: 'background-color 0.5s, border 0.5s', // Slower transition
     },
   },
