@@ -3,13 +3,16 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import theme from './theme/coustomTheme'
+import { ThemeProvider } from '@mui/material/styles'
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Header />
-      <h1>AcademiaX</h1>
-      <Footer />
+      <ThemeProvider theme={theme} >
+        <Navbar />
+        <Header />
+        <Footer />
+      </ThemeProvider>
     </div>
   )
 }
