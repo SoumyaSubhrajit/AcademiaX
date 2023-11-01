@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(2),
     transition: 'background-color 0.5s, border 0.5s', // Slower transition
   },
-  // Apply styles when the button is hovered
+  // Apply styles when the button is hovered.
+  // Just for the saving purose.
   buttonHover: {
     '&:hover': {
       backgroundColor: '#6366f1',
