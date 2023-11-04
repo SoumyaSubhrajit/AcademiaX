@@ -11,16 +11,14 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   button: {
-    // Set a transparent background
-    border: '1px solid transparent', // Add border for a button-like appearance
+    border: '1px solid transparent',
     marginLeft: theme.spacing(2),
   },
-  // Apply styles when the button is hovered.
-  // Just for the saving purose.
+
   buttonHover: {
     '&:hover': {
       backgroundColor: '#8966f1',
-      transition: 'background-color 0.5s, border 0.5s', // Slower transition
+      transition: 'background-color 0.5s, border 0.5s',
     },
   },
 }));
