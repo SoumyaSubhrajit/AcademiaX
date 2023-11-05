@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar {
+  background-color: rgb(4, 16, 36); /* Set your desired background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo a {
+  color: #fff; /* Set the text color for the logo */
+  text-decoration: none;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px; /* Adjust the spacing between list items */
+}
+
+.nav-list li:last-child {
+  margin-right: 0; /* Remove margin from the last item to prevent extra spacing */
+}
+
+.nav-list li a {
+  color: #fff; /* Set the text color for list items */
+  text-decoration: none;
+  font-size: 16px; /* Adjust the font size as needed */
+}
