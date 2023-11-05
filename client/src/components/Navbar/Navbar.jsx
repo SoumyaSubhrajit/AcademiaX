@@ -33,4 +33,5 @@ const Navbar = () => {
   );
 };
 
+// Adding
 export default Navbar;
