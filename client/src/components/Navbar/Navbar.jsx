@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import styles from './Styles';
 
 ////////// Matrial UI ///////////
 
@@ -9,22 +10,19 @@ const Navbar = () => {
     <div>
       <AppBar
         position='static'
-        sx={{ background: '#212529', paddingBottom: '15px' }}
+        sx={{ background: '#f1f3f5', paddingBottom: '15px' }}
       >
         <Toolbar>
-          <Typography variant='h6' style={{ flexGrow: 1 }}>
+          <Typography
+            variant='h6'
+            style={{ flexGrow: 1, color: '#212529', fontWeight: 800 }}
+          >
             AcademiaX
           </Typography>
-          <Button variant='contained' sx={{ background: '#495057' }}>
+          <Button variant='contained' sx={styles.button}>
             Login
           </Button>
-          <Button
-            variant='contained'
-            sx={{
-              background: '#495057',
-              marginLeft: '15px', // use camelCase for CSS properties
-            }}
-          >
+          <Button variant='contained' sx={styles.button}>
             sign Up
           </Button>
         </Toolbar>
