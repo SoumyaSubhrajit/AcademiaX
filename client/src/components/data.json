@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Card 1",
+    "author": "Author 1",
+    "rating": "4.5",
+    "price": "$19.99"
+  },
+  {
+    "title": "Card 2",
+    "author": "Author 2",
+    "rating": "4.0",
+    "price": "$14.99"
+  }
+]
