@@ -1,0 +1,26 @@
+/* Card.css */
+
+/* Styles for the card section */
+.custom-card {
+  max-width: 300px; /* Set the maximum width of the card */
+  margin: 2rem; /* Adjust margin as needed */
+  border: 1px solid #e2e8f0; /* Add a border for a clean look */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transform transition on hover */
+
+  /* Hover effect: Scale the card on hover */
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; /* Add a smooth transform transition on hover */
+  }
+}
+
+/* Styles for the grid section */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Create a responsive grid with minimum width of 300px */
+  gap: 2rem; /* Add a gap between grid items */
+  justify-content: center; /* Center the grid items horizontally */
+}
