@@ -75,6 +75,5 @@ const Styles = {
   },
 };
 
-// Change to Sass.
-// more
 export default Styles;
+

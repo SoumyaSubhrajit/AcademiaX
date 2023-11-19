@@ -1,34 +1,33 @@
-/* Navbar.css */
-.navbar {
-  background-color: rgb(4, 16, 36); /* Set your desired background color */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom keyframe animation for fadeIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.logo a {
-  color: #fff; /* Set the text color for the logo */
-  text-decoration: none;
-  font-size: 24px; /* Adjust the font size as needed */
-  font-weight: bold;
-}
+/* Custom styles */
+.button {
+  color: aqua;
+  background-color: teal; /* Set your desired background color */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  border-radius: 0.25rem; /* Add border-radius for rounded corners */
 
-.nav-list {
-  list-style: none;
-  display: flex;
-}
+  /* Add a transition for smoother hover effect */
+  transition: background-color 0.3s ease;
 
-.nav-list li {
-  margin-right: 20px; /* Adjust the spacing between list items */
-}
+  /* Optional: Add an animation for extra visual appeal */
+  animation: fadeIn 1s ease;
 
-.nav-list li:last-child {
-  margin-right: 0; /* Remove margin from the last item to prevent extra spacing */
-}
-
-.nav-list li a {
-  color: #fff; /* Set the text color for list items */
-  text-decoration: none;
-  font-size: 16px; /* Adjust the font size as needed */
+  /* Hover effect: Change background color on hover */
+  &:hover {
+    background-color: darkcyan; /* Set your desired hover background color */
+    background-color: rgba(0, 128, 128, 0);
+  }
 }
