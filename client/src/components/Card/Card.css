@@ -10,6 +10,7 @@
   /* Hover effect: Scale the card on hover */
   &:hover {
     transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; /* Add a smooth transform transition on hover */
   }
 }
 
