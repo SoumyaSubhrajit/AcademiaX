@@ -2,6 +2,8 @@
 
 /* Styles for the card section */
 .custom-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minimax(300px, 1fr));
   max-width: 300px; /* Set the maximum width of the card */
   margin: 2rem; /* Adjust margin as needed */
   border: 1px solid #e2e8f0; /* Add a border for a clean look */

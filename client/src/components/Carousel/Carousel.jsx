@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import CardList from './CardList';
+import CardList from './CarouselList';
 import data from '../data.json'; // by remov ing the name of the data.json the ambiguity problem is resove.
 
 const Card = () => {
