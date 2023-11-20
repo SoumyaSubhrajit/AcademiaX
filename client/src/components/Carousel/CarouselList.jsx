@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from './MakeCard';
+import Card from './MakeCarousel';
+import './CarouselList.css';
 
 const CardList = ({ data }) => {
   return (

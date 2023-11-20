@@ -1,14 +1,156 @@
 [
   {
-    "title": "Card 1",
-    "author": "Author 1",
-    "rating": "4.5",
+    "title": "The Complete Python Bootcamp from Zero to hero",
+    "img": "https://bit.ly/3QES4Ug",
+    "author": "Emily Turner",
+    "rating": "4.2",
+    "price": "$24.99"
+  },
+  {
+    "title": "JavaScript Wizardry: A Comprehensive Guide for Mastery",
+    "img": "https://bit.ly/3QObIgt",
+    "author": "Emily Turner",
+    "rating": "4.2",
+    "price": "$24.99"
+  },
+  {
+    "title": "JavaScript Wizardry: A Comprehensive Guide for Mastery",
+    "img": "https://bit.ly/47CMMiY",
+    "author": "Emily Turner",
+    "rating": "4.2",
+    "price": "$24.99"
+  },
+  {
+    "title": "C Unleashed: Mastering the Fundamentals and Beyond",
+    "img": "https://bit.ly/3MQnlmb",
+    "author": "Rajiv Sharma",
+    "rating": "4.8",
+    "price": "$29.99"
+  },
+  {
+    "title": "C++ Supercharged: From Novice to Ninja",
+    "img": "https://bit.ly/3SKB01R",
+    "author": "Brian Mitchell",
+    "rating": "4.0",
     "price": "$19.99"
   },
   {
-    "title": "Card 2",
-    "author": "Author 2",
-    "rating": "4.0",
-    "price": "$14.99"
+    "title": "Java Juggernaut: A Journey from Basics to Advanced Techniques",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXEmwFn94HCsA05AthZHQw5o7JbGvKC7154uHstyatYQCHAJafbY5j3X3WH2djsGg5B_JA5QxNS2fyLxUFG0udl2Ou4IUsWuhAZWKEP38XU2jL11pl9LMNO3UoK4Dzv2jzpI106FhxZgqpLXHDQ4mSmkQfCJmGtS6deP6fJU_FV_Oc0CYkuHHjoQN2iSI/s320/A%20curious%20young%20cartoon%20programmer%20studying%20an%20AI%20book.jpeg",
+    "author": "Aarav Patel",
+    "rating": "4.5",
+    "price": "$27.99"
+  },
+  {
+    "title": ".NET Ninja: The Ultimate Framework Deep Dive",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2Jxf2fP9rcTpaVENRYhoF5aORmC8onllM7B-TRhgCHgR9tMSFEXgjUzsbF4gfyfD0mAapCmNRliohgFRuuMEb5LN-th6tK-elwomMKuEqNLQeWkSx6eGToXqz8PvCYK0fwnvyTgW1CX5lKl2_3XAmQGtFmd-IM17cwewSF14_YM4wjLdmqiohS5OcQOQ/s320/A%20determined%20individual.jpeg",
+    "author": "Sophia Davis",
+    "rating": "4.7",
+    "price": "$22.99"
+  },
+  {
+    "title": "Networking Alchemy: Building a Strong Foundation in Network Management",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd16z0r7iM7JGkQp9Aix136q3sXnS-DpsOVYurecwQyKHMJwmqnE0iWRMfwGE8TEZPZR3sqsVYpiua5abi-DgR23u50vhrkbrO2-_TzLUKpsj0xD_biHq6-L8cWk96YVikmPl_L45nDkqfrI3U9kPhSF2Yc8G6ulOK4XRk9P1B2AFucN7rvludVHSYnTI/s320/Admiring%20the%20sunset%20while%20working%20from%20home.jpeg",
+    "author": "John Reynolds",
+    "rating": "4.3",
+    "price": "$23.99"
+  },
+  {
+    "title": "C# Maestro: A Complete Guide to C# Programming Excellence",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0ATA5oFIkHQkmk5CVYNoq-BNMpNlfA_ENVhA1cACUpFHTSM0okcsTfk6uc9vrBUaWZ8mYP9JbgRqqqgbV-Zyrt8bN38sU60DXica11TKR8TUTrKxFDGBImhyphenhyphenJJszjMK2RwGNJzPweZi8voLXlTUmrnIuYdoTNJibxeJbyb6dyL3gqQz-twSCxpP5lPLE/s320/Creative%20&%20Cozy%20Desk%20Setup.jpeg",
+    "author": "Priya Mehta",
+    "rating": "4.6",
+    "price": "$26.99"
+  },
+  {
+    "title": "Rust Revolution: A Deep Dive into the World of Systems Programming",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh38oPbW8XrjLq9GU7FkkXBQRkUaEHXeUX4JXNOdhzIR_B6N08bqyNxnR-E_VWCQ3unwhO9SySWM7jGmL0TlkiReQalxXa5zrG8YBx0Ezh1_Pet2r7NR8KrYm-tosCam2DIQoNPORMob0uOmVK0Z1AHzq9vCrZ_T69xPc7NYiRdg6PdjsJpQBI8sc9pcPk/s320/Detailed%20unreal%20engine%20voxel%20render.jpeg",
+    "author": "Michael Turner",
+    "rating": "4.1",
+    "price": "$28.99"
+  },
+  {
+    "title": "Go Lang Galore: Mastering Go Programming for Modern Development",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9pEJ_eJ8uUm7ycGPAZflyvMKIXuCgI1rG2yTeyW_IqReGRcfVDGeMCCKPG2fRZqssJgTKRDb1HZQwmmx97yWB2K5_AklGncQwGx5DksiF80ApdCRvUivsl2o6nNZgqjwvJNG7zzpCRJMYcFD6J09o0Qckh2ZJRCHeLAGHabLJD7rvslKQcbmyk2w2USY/s320/everydays%20-%20june%202018.jpeg",
+    "author": "Neha Kapoor",
+    "rating": "4.9",
+    "price": "$25.99"
+  },
+  {
+    "title": "MERN Stack Mastery: Building Full-Stack Applications with MongoDB, Express, React, and Node.js",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6JEe35-Rye2ADe9wa5cw_CfavCuUjVSde1wIUeVKL3ct5oPim8WRnRiA-nIt2YMb9wibHdqrdgbV7mPbOjH39kcbsz13CH3vODHsct-Uu8hZfFpINRI_BeXRyZxtToYD0T4U-WW8W_R1h2rr0XMoFhCcn8kHecN7ScxANKPXB1Q-CpHXlpjxQ3x9gsSo/s320/Free%20Photo%20_%20Top%20view%20of%20unrecognizable%20hacker%20performing%20cyberattack%20at%20night.jpeg",
+    "author": "Alex Turner",
+    "rating": "4.4",
+    "price": "$21.99"
+  },
+  {
+    "title": "React Radiance: Crafting Dynamic User Interfaces with React",
+    "img": "https://example.com/react_radiance_image.jpeg",
+    "author": "Riya Choudhury",
+    "rating": "4.7",
+    "price": "$23.99"
+  },
+  {
+    "title": "Node.js Nectar: A Comprehensive Guide to Server-Side JavaScript",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVy8y9m5GLS2dRFRWLb3tddTHzOcZdIxzSPBdRdex5jYEmxhN91a1TyqrNKy9RPRsIoF_KvddWkpWnA2IVWbLRoc9H9Z3nbOtz8ZgPMB8g2upcJNqq-CPNbmA3uqDWf1AxXudvpJEVBwp3FwNor-FJLQm-G8kzHnz5do505zorwV-q90My-S0bYTY745g/s320/Freepik_%20Download%20Free%20Videos,%20Vectors,%20Photos,%20and%20PSD.jpeg",
+    "author": "Daniel Walker",
+    "rating": "4.2",
+    "price": "$26.99"
+  },
+  {
+    "title": "MongoDB Magic: Unlocking the Power of NoSQL Databases",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIQ-02wmxLCQqDACo0cuvuGoghZBjzeG6D-Cds4z_B7tgSSHH_G9gk0CWm2PjdqPTWGo0faBWvJy5jTq_aR7DiKwPPxBPO4sEFtJIz8j4ziD56e-qkkFEoGJ_EhNWiczePmkB2pW1hC3sVao8zesh4_ENC0PTgjEGCA7P7rIgKVPX1O8s2z0Fhj6CbR4s/s320/How%20CRM%20Looks%20like%20for%20It's%20association%20on%20the%20Blockchain%20innovation.jpeg",
+    "author": "Shreya Singh",
+    "rating": "4.5",
+    "price": "$24.99"
+  },
+  {
+    "title": "SQL Saga: A Journey through Structured Query Language",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimR9ECJiXLwsdQ5sMh0Xj7DnTwHn8vI5HKBIVI4RItZaI-BFHwly85ocwEebnHy9TbyDi_AmqBVH9TDgQLYg_mHFby5cGfdNhQ4x1NjrN1ebA7kk2QZmXS-OhiT03n3rLeisDo_piYAI3sgCutl_-Q_YyRwN_O6SbEgX1u6nR3PG2usRQT3P9dOzWKjx4/s320/isometric%20laptop%20illustration%20with%20characters.jpeg",
+    "author": "Samuel Murphy",
+    "rating": "4.8",
+    "price": "$22.99"
+  },
+  {
+    "title": "Spring Boot Symphony: Mastering Java-Based Microservices with Spring Boot",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhErrb7WrdFNrhO7z6yReNZ8YQvaFa2fXXuzt_FOFZ9jK2veBT7WNXcXtLdTru0WFZNIfsz2jw8mKA6UEAi0GSieVj6Q-TF9FSFMnAxmxG7jSWSPcA1awR0FfZRFbquoaMoWdxoRDgRgAaT7AktpvDnPMQSuaxWaj60y7WTUn3PlEJOtv6rSDSfFLwLfOU/s320/omi%20on%20Twitter.jpeg",
+    "author": "Mia Johnson",
+    "rating": "4.3",
+    "price": "$28.99"
+  },
+  {
+    "title": "Hibernate Harmony: A Deep Dive into Java Persistence",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheHO6GWBiqvCAxDsY0-2smSUMdTwL05nrK3lZmmvBNSxVOtcGmDM_-zv14tXVK9xvnV8U7dU3vktV7u9StAd2OUC1It4zK1EAKl0b58b68yte2C7sukaKoxSruF9P8-Yt86pyH-FRtuYH400Feh05zTeU5g_ytoRuR9XC4QxA7AbhTbxgLMW2SXf647s0/s320/Pixel%20Jeff%20on%20Behance.gif",
+    "author": "Amit Kumar",
+    "rating": "4.6",
+    "price": "$25.99"
+  },
+  {
+    "title": "Front-End Fantasia: Crafting Stunning User Experiences with HTML, CSS, and JavaScript",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZqYFOdhr7TEjk61MMSDVETxLamKfh0mV_DuP7oRlPCvNq3wznQFsqf_U7T-D-pQVh3_Tkdw6rfOMFn2VR2Eig5UTrDG6Y4Kh4s_ya4WaUmsOViQeZuO-9amRHTB7elEP_E2mk5TnQFavVeUfdKWIWrAabWagYBS34b4TMM0ejhts87i0V2GTUYVqY6ck/s320/Programmer%E2%80%99s%20Desk%20Setup.jpeg",
+    "author": "Sophie Evans",
+    "rating": "4.9",
+    "price": "$21.99"
+  },
+  {
+    "title": "Back-End Ballet: Mastering Server-Side Development for Robust Applications",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOdWO9II3A5xTFF72AsBFOb30Acp5PAIi593ZDPDp74zxAKvsGwo70vvulZLT2TcuqlU4yhVqP6vOgv9xipy7LP-flSa81EZJIdNc3vWUFpuOrlAbGLNpktRrFL-dP6-eMIZyDDmj2Dcxunql7vxMqC3JgJ90997h91QW3k54IkaDvj8s8GbWChOD-07k/s320/Thought%E2%80%8A%E2%80%94%E2%80%8AWhy%20Is%20Computer%20Science%20a%20Good%20Topic%20to%20Study_%20_%20Technology%20wallpaper,%20Computer%20science,%20Computer%20science%20major.jpeg",
+    "author": "Vikram Joshi",
+    "rating": "4.4",
+    "price": "$27.99"
+  },
+  {
+    "title": "DevOps Dynamo: Orchestrating Seamless Development and Deployment",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTJ6fjPfJqDjsvMYgqxTOnhNdb61JtUm9ftQUd-cfBJOqL0sw5mlRrISIHvSXOO_lSyxXmieLn54IOhGjB_fkf5zHalo-20zIFVt7PvhFurZRyKeLckf_yVlJTwp3Y6lwOnoEuSc-sUp8DMpQrmh8BH1RfrOJBFfmYZ5jfj6MpCxief42hDcyI7bVSP48/s320/Top%20Most%20Popular%20Programming%20Languages%20for%20Mobile%20App%20Developmen.jpeg",
+    "author": "Olivia Brooks",
+    "rating": "4.1",
+    "price": "$29.99"
+  },
+  {
+    "title": "Ethical Hacking Odyssey: A Comprehensive Guide to White-Hat Security",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcrMoN9sqkG7zLcxdsbpVn1tiCztdhI7CbEk_lrSICjpRoVYnddiP4GC5HZ20Baue6V6__k6eOA9G6C9ZeAMt3-z1NdLJwFs0HqFSmS-YdJzL4f5MR1hkwObIfiOJbPUwLRUoP6EfwxkTtwiuo5czupRm-VQkw0xx5pbJensGrhlkF7eVWdTil1GHRBSA/s320/A%20skilled%20developer.jpeg",
+    "author": "Karan Mehta",
+    "rating": "4.5",
+    "price": "$23.99"
   }
 ]
